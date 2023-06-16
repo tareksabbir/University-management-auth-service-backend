@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/.9a4cea98515c0a58500ba9702ee93c4eb22f073c-audit.json",
+    "files": [
+        {
+            "date": 1686943711361,
+            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-17-06-01.log",
+            "hash": "98590f96012dfdc684d5496632d8dc743d85b485a2429048991580796d0639d3"
+        }
+    ],
+    "hashType": "sha256"
+}
