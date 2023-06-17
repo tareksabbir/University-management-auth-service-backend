@@ -262,3 +262,15 @@
   label: 'meow meow!',
   timestamp: '2023-06-17T12:43:50.302Z'
 }
+{
+  message: '🧑‍💻 Database connected successfully',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-06-17T12:45:49.928Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-06-17T12:45:49.936Z'
+}
