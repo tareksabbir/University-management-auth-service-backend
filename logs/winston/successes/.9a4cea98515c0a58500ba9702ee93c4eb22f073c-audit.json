@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/.9a4cea98515c0a58500ba9702ee93c4eb22f073c-audit.json",
-    "files": [
-        {
-            "date": 1689259089844,
-            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-13-07-20.log",
-            "hash": "bc0079f16aaabdb400ce637bad610255be6325008586cf927d13265f599ce3f6"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/.9a4cea98515c0a58500ba9702ee93c4eb22f073c-audit.json",
+  "files": [
+    {
+      "date": 1689259089844,
+      "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-13-07-20.log",
+      "hash": "bc0079f16aaabdb400ce637bad610255be6325008586cf927d13265f599ce3f6"
+    }
+  ],
+  "hashType": "sha256"
 }
