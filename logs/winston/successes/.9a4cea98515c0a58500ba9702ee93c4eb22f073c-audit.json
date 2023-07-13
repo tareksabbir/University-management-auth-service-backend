@@ -1,20 +1,20 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/.9a4cea98515c0a58500ba9702ee93c4eb22f073c-audit.json",
+  "files": [
+    {
+      "date": 1689259089844,
+      "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-13-07-20.log",
+      "hash": "bc0079f16aaabdb400ce637bad610255be6325008586cf927d13265f599ce3f6"
     },
-    "auditLog": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/.9a4cea98515c0a58500ba9702ee93c4eb22f073c-audit.json",
-    "files": [
-        {
-            "date": 1689259089844,
-            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-13-07-20.log",
-            "hash": "bc0079f16aaabdb400ce637bad610255be6325008586cf927d13265f599ce3f6"
-        },
-        {
-            "date": 1689271259132,
-            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-14-07-00.log",
-            "hash": "b5171affe27f2570c276fef5d82d892cd670585705c276be4eef6d85a1939e8b"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1689271259132,
+      "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-14-07-00.log",
+      "hash": "b5171affe27f2570c276fef5d82d892cd670585705c276be4eef6d85a1939e8b"
+    }
+  ],
+  "hashType": "sha256"
 }
