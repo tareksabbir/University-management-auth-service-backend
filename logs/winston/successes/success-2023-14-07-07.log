@@ -1,0 +1,18 @@
+{
+  message: '🧑‍💻 Database connected successfully',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-14T01:06:09.979Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-14T01:06:09.989Z'
+}
+{
+  message: 'SIGTERM IS RECEIVED',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-14T01:18:23.767Z'
+}
