@@ -1,0 +1,72 @@
+{
+  message: '🧑‍💻 Database connected successfully',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:05:32.769Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:05:32.778Z'
+}
+{
+  message: 'SIGTERM IS RECEIVED',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:10:24.628Z'
+}
+{
+  message: '🧑‍💻 Database connected successfully',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:11:09.702Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:11:09.712Z'
+}
+{
+  message: 'SIGTERM IS RECEIVED',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:27:44.543Z'
+}
+{
+  message: '🧑‍💻 Database connected successfully',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:41:46.548Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:41:46.558Z'
+}
+{
+  message: 'SIGTERM IS RECEIVED',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:43:56.586Z'
+}
+{
+  message: '🧑‍💻 Database connected successfully',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:45:26.526Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:45:26.547Z'
+}
+{
+  message: 'SIGTERM IS RECEIVED',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T21:46:53.878Z'
+}
