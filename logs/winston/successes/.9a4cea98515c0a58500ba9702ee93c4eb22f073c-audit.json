@@ -99,6 +99,16 @@
             "date": 1689528262833,
             "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-16-07-23.log",
             "hash": "b0f7ab4bdb1c328ea6c565337369ab924c0b4120608adf007a23f06be7ab7287"
+        },
+        {
+            "date": 1689530564769,
+            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-17-07-00.log",
+            "hash": "5a726a2f6b6ed00ad66b5ea43d258be80bc81131be6589ea4c3d41542b97039a"
+        },
+        {
+            "date": 1689537994534,
+            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/successes/success-2023-17-07-02.log",
+            "hash": "42a0961ba408b55226c78503ff6ec9fd028ef6107c5cd97d997234fc830c4452"
         }
     ],
     "hashType": "sha256"
