@@ -109,6 +109,16 @@
             "date": 1689541530110,
             "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/errors/error-2023-17-07-03.log",
             "hash": "854f864d6fd7955d71dabdc0d43f37374419535d7e14edc307cd3aaf186fde91"
+        },
+        {
+            "date": 1689544806004,
+            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/errors/error-2023-17-07-04.log",
+            "hash": "e981a45033b9b8ebf9c35506fb6792778c1bbcfe808da7d4cd9d09ffad6d9434"
+        },
+        {
+            "date": 1689549169777,
+            "name": "/Users/sabbir/Desktop/level-2/big project /university-management-auth-service-backend/logs/winston/errors/error-2023-17-07-05.log",
+            "hash": "1976eb29e0c55fb7b6ff0fb4f9b0d4f8df3549d619eac15aa20bb4803460a1f6"
         }
     ],
     "hashType": "sha256"

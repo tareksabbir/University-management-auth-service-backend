@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from 'express';
+import { Request, Response } from 'express';
 import { AcademicSemesterService } from './academicSemester.service';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
@@ -9,7 +9,7 @@ import { paginationFields } from '../../../constance/pagination';
 import { academicSemesterFilterableFields } from './academicSemester.constant';
 
 const createSemesterController = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     const { ...academicSemesterData } = req.body;
     const result = await AcademicSemesterService.createSemesterService(
       academicSemesterData
@@ -21,12 +21,11 @@ const createSemesterController = catchAsync(
       message: 'Academic Semester created successfully!',
       data: result,
     });
-    next();
   }
 );
 
 const getAllSemesterController = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     const filters = pick(req.query, academicSemesterFilterableFields);
     const paginationOptions = pick(req.query, paginationFields);
 
@@ -42,12 +41,11 @@ const getAllSemesterController = catchAsync(
       meta: result.meta,
       data: result.data,
     });
-    next();
   }
 );
 
 const getSingleSemesterController = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     const id = req.params.id;
     const result = await AcademicSemesterService.getSingleSemesterService(id);
 
@@ -57,12 +55,11 @@ const getSingleSemesterController = catchAsync(
       message: 'Single Semesters retrieved successfully !',
       data: result,
     });
-    next();
   }
 );
 
 const updateSemesterController = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     const id = req.params.id;
     const updateData = req.body;
 
@@ -74,7 +71,21 @@ const updateSemesterController = catchAsync(
       message: 'Single Semesters updated successfully !',
       data: result,
     });
-    next();
+  }
+);
+
+const deleteSingleSemesterController = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id;
+
+    const result = await AcademicSemesterService.deleteSemester(id);
+
+    sendResponse<IAcademicSemester>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Single Semesters deleted successfully !',
+      data: result,
+    });
   }
 );
 
@@ -83,4 +94,5 @@ export const AcademicSemesterController = {
   getAllSemesterController,
   getSingleSemesterController,
   updateSemesterController,
+  deleteSingleSemesterController,
 };
