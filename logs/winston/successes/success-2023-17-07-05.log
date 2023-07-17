@@ -10,3 +10,9 @@
   label: 'meow meow!',
   timestamp: '2023-07-16T23:12:52.471Z'
 }
+{
+  message: 'SIGTERM IS RECEIVED',
+  level: 'info',
+  label: 'meow meow!',
+  timestamp: '2023-07-16T23:20:50.972Z'
+}
