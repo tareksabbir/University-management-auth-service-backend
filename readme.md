@@ -1,8 +1,3 @@
-[![Strong Authentication System Architecture](https://images.openai.com/thumbnails/d56a1a2d526c556f190049295aeeef98.png)](https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/advanced-authentication/9-1/getting-started/introduction-to-ca-strong-authentication/understanding-the-basics/ca-strong-authentication-system-architecture.html)
-
-Certainly! Here's a more detailed and descriptive documentation for your University Management Auth Service Backend:
-
----
 
 # University Management Auth Service Backend
 
