@@ -355,6 +355,13 @@ This configuration ensures:
 
 ## 7. Project Structure and Development Workflow
 
+### System Architecture
+
+The system follows a modular architecture with clear separation of concerns. It is built using Node.js with Express and TypeScript, connecting to a MongoDB database for data persistence.
+
+![Alt text for the image](https://github.com/tareksabbir/University-management-auth-service-backend.git/raw/main/readme_images/uni1.png)
+
+
 ### Development Workflow Diagram:
 
 ```mermaid
