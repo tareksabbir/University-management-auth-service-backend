@@ -50,6 +50,71 @@ The University Management Auth Service Backend is a Node.js application develope
 * **MongoDB**: Local instance or MongoDB Atlas account.
 * **Git**: Version control system.
 
+##  Project Structure and Development Workflow
+
+### System Architecture
+
+The system follows a modular architecture with clear separation of concerns. It is built using Node.js with Express and TypeScript, connecting to a MongoDB database for data persistence.
+
+![System Architecture](https://raw.githubusercontent.com/tareksabbir/University-management-auth-service-backend/main/readme_images/uni1.png)
+
+#### Key Architectural Components
+
+The system is organized into several key components that work together:
+
+* Express Application - The core web server handling HTTP requests
+* Module Layer - Domain-specific modules for users and academic entities
+* MongoDB Database - Persistent storage for system data
+* Middleware Pipeline - Request processing components
+* Logging System - Comprehensive event and error logging
+* Error Handling System - Centralized error processing
+
+
+### Express Application
+The Express application serves as the main entry point, configuring middleware, mounting routes, and handling errors.
+
+![Express Application](https://raw.githubusercontent.com/tareksabbir/University-management-auth-service-backend/main/readme_images/uni2.png)
+
+
+The application is configured in app.ts with middleware for CORS, body parsing, and error handling. API routes are mounted at /api/v1.
+
+
+
+### Server Bootstrap Process
+The server bootstrap process, defined in server.ts, is responsible for establishing database connection, starting the HTTP server, and configuring process-level error handlers.
+
+![Server Bootstrap Process](https://raw.githubusercontent.com/tareksabbir/University-management-auth-service-backend/main/readme_images/uni3.png)
+
+### Logging System
+The application uses Winston for logging, with separate loggers for regular information and errors. Logs are rotated daily to prevent excessive disk usage.
+
+![Logging System](https://raw.githubusercontent.com/tareksabbir/University-management-auth-service-backend/main/readme_images/uni4.png)
+
+
+### Request Processing Flow
+When the application receives a request, it goes through a defined processing pipeline:
+
+![Request Processing Flow](https://raw.githubusercontent.com/tareksabbir/University-management-auth-service-backend/main/readme_images/uni5.png)
+
+
+### Development Workflow Diagram:
+
+```mermaid
+graph TD
+Developer --> VSCode[Edit Code in VS Code]
+VSCode --> Husky[Pre-Commit Hook]
+Husky --> LintStaged[Lint-Staged]
+LintStaged --> ESLint[ESLint Check]
+LintStaged --> Prettier[Prettier Format]
+ESLint --> Git[Git Commit]
+Prettier --> Git
+Git --> Push[Push to Repository]
+Push --> Server[Run Development Server]
+Server --> TSC[TypeScript Compiler]
+TSC --> Node[Node.js Runtime]
+Node --> Express[Express Application]
+```
+
 ## Installation
 
 1. **Clone the repository**:
@@ -352,32 +417,7 @@ This configuration ensures:
 * `.gitignore` (lines 1–2)
 * `package.json` (line 35)
 
-## 7. Project Structure and Development Workflow
 
-### System Architecture
-
-The system follows a modular architecture with clear separation of concerns. It is built using Node.js with Express and TypeScript, connecting to a MongoDB database for data persistence.
-
-![Alt text for the image](https://raw.githubusercontent.com/tareksabbir/University-management-auth-service-backend/main/readme_images/uni1.png)
-
-
-### Development Workflow Diagram:
-
-```mermaid
-graph TD
-Developer --> VSCode[Edit Code in VS Code]
-VSCode --> Husky[Pre-Commit Hook]
-Husky --> LintStaged[Lint-Staged]
-LintStaged --> ESLint[ESLint Check]
-LintStaged --> Prettier[Prettier Format]
-ESLint --> Git[Git Commit]
-Prettier --> Git
-Git --> Push[Push to Repository]
-Push --> Server[Run Development Server]
-Server --> TSC[TypeScript Compiler]
-TSC --> Node[Node.js Runtime]
-Node --> Express[Express Application]
-```
 
 **Sources:**
 
